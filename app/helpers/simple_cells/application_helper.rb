@@ -1,0 +1,2 @@
+module SimpleCells::ApplicationHelper
+end
