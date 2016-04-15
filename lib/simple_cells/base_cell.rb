@@ -16,4 +16,8 @@ class SimpleCells::BaseCell
   def [](key)
     @_simple_cell_arguments.fetch(key)
   end
+
+  def view_context
+    @_simple_cell_view_context
+  end
 end

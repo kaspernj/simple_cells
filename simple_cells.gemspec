@@ -9,14 +9,14 @@ Gem::Specification.new do |s|
   s.version     = SimpleCells::VERSION
   s.authors     = ["kaspernj"]
   s.email       = ["k@spernj.org"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SimpleCells."
-  s.description = "TODO: Description of SimpleCells."
+  s.homepage    = "https://www.github.com/kaspernj/simple_cells"
+  s.summary     = "An attempt at writing a very simple cells gem."
+  s.description = "An attempt at writing a very simple cells gem."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 4.2.6"
+  s.add_dependency "rails", ">= 4.0.0"
 
   s.add_development_dependency "auto_autoloader", "0.0.4"
   s.add_development_dependency "sqlite3", "1.3.11"

@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     simple_cells (0.0.1)
-      rails (~> 4.2.6)
+      rails (>= 4.0.0)
 
 GEM
   remote: https://rubygems.org/
