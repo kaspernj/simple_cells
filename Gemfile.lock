@@ -2,7 +2,9 @@ PATH
   remote: .
   specs:
     simple_cells (0.0.1)
+      auto_autoloader (>= 0.0.4)
       rails (>= 4.0.0)
+      string-cases (>= 0.0.4)
 
 GEM
   remote: https://rubygems.org/
@@ -159,7 +161,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  auto_autoloader (= 0.0.4)
   best_practice_project (= 0.0.9)
   capybara (= 2.6.2)
   capybara-webkit (= 1.8.0)
