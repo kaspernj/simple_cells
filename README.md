@@ -28,7 +28,7 @@ class UsersSimpleCell < SimpleCells::BaseCell
 end
 ```
 
-Then add a view file for the action in "app/simple_cells/users/my_action.html.erb":
+Then add a view file for the action in "app/views/simple_cells/users/my_action.html.erb":
 ```erb
 Hello world
 Content of my variable: <%= simple_cell[:my_variable] %>
