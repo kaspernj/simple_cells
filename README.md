@@ -41,7 +41,7 @@ You can now render it like this from another ERB file:
 ```
 
 Check if a variable has been given:
-```
+```ruby
 class MyCell < SimpleCells::BaseCell
   def my_method
     if simple_cell_argument?
