@@ -40,6 +40,19 @@ You can now render it like this from another ERB file:
 <%= render_simple_cell :users, :my_action, my_variable: "Test" %>
 ```
 
+Check if a variable has been given:
+```ruby
+class MyCell < SimpleCells::BaseCell
+  def my_method
+    if simple_cell_argument?
+      puts "Variable has been given"
+    else
+      puts "Variable has not been given"
+    end
+  end
+end
+```
+
 ## License
 
 This project rocks and uses MIT-LICENSE.

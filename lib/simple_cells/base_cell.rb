@@ -1,4 +1,6 @@
 class SimpleCells::BaseCell
+  include Rails.application.routes.url_helpers
+
   def initialize(args)
     @_simple_cell_arguments = args.fetch(:simple_cell_arguments)
     @_simple_cell_view_context = args.fetch(:view_context)
@@ -39,6 +41,10 @@ class SimpleCells::BaseCell
     @_simple_cell_arguments[key] = value
   end
 
+  def params
+    @_simple_cell_view_context.params
+  end
+
   def render(args)
     @_simple_cell_view_to_render = args
   end
@@ -49,6 +55,14 @@ class SimpleCells::BaseCell
 
   def simple_cell_arguments
     @_simple_cell_arguments
+  end
+
+  def t(key)
+    if key.start_with?(".")
+      I18n.t("simple_cells.#{cell_name}#{key}")
+    else
+      I18n.t(key)
+    end
   end
 
   def view_context
