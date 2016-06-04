@@ -3,7 +3,7 @@ module SimpleCells::ViewsHelper
     cell_class_name = StringCases.snake_to_camel(cell_name)
     cell_class_name << "SimpleCell"
 
-    cell_file_path = Rails.root.join("app", "simple_cells", "#{cell_name}_simple_cell")
+    cell_file_path = Rails.root.join("app", "simple_cells", "#{cell_name}_simple_cell").to_s
 
     require cell_file_path
 
