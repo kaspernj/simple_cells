@@ -14,6 +14,11 @@ module ApplicationHelper
 end
 ```
 
+Autoload the simple cells through "application.rb":
+```ruby
+config.autoload_paths << Rails.root.join("app", "simple_cells")
+```
+
 ## Usage
 
 Add a cells-class to your application in "app/simple_cells/users_simple_cell.rb":
@@ -21,7 +26,7 @@ Add a cells-class to your application in "app/simple_cells/users_simple_cell.rb"
 class UsersSimpleCell < SimpleCells::BaseCell
   def my_action
   end
-  
+
   def helper_method
     "Hello from helper method"
   end
