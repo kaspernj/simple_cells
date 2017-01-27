@@ -19,13 +19,4 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", ">= 4.0.0"
   s.add_dependency "auto_autoloader", ">= 0.0.4"
   s.add_dependency "string-cases", ">= 0.0.4"
-
-  s.add_development_dependency "sqlite3", "1.3.11"
-  s.add_development_dependency "rspec-rails", "3.4.2"
-  s.add_development_dependency "best_practice_project", "0.0.9"
-  s.add_development_dependency "rubocop", "0.36.0"
-  s.add_development_dependency "capybara", "2.6.2"
-  s.add_development_dependency "capybara-webkit", "1.8.0"
-  s.add_development_dependency "factory_girl_rails", "4.7.0"
-  s.add_development_dependency "forgery", "0.6.0"
 end
