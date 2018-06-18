@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    simple_cells (0.0.6)
+    simple_cells (0.0.7)
       auto_autoloader (>= 0.0.4)
       rails (>= 4.0.0)
 
