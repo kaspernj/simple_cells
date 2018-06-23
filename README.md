@@ -58,6 +58,21 @@ class MyCell < SimpleCells::BaseCell
 end
 ```
 
+## Testing
+
+You can test your cells individually like this:
+
+```ruby
+require "rails_helper"
+
+describe "my cell" do
+  it "renders" do
+    helper = SimpleCells::SpecHelper.new("users/something", :show)
+    expect(helper.body).to include "some text"
+  end
+end
+```
+
 ## License
 
 This project rocks and uses MIT-LICENSE.
