@@ -13,7 +13,7 @@ group :development, :test do
   gem "forgery", "0.8.1"
   gem "rspec-rails", "4.0.1"
   gem "rubocop", "0.36.0", require: false
-  gem "sqlite3", "1.3.11"
+  gem "sqlite3", "1.4.2"
 end
 
 # Declare any dependencies that are still in development here instead of in
