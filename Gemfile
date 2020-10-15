@@ -6,7 +6,7 @@ source "https://rubygems.org"
 gemspec
 
 group :development, :test do
-  gem "best_practice_project", "0.0.9", require: false
+  gem "best_practice_project", "0.0.11", require: false
   gem "capybara", "2.6.2"
   gem "capybara-webkit", "1.15.1"
   gem "factory_girl_rails", "4.8.0"

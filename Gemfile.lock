@@ -48,8 +48,8 @@ GEM
     ast (2.4.0)
     auto_autoloader (0.0.5)
       string-cases
-    best_practice_project (0.0.9)
-      auto_autoloader
+    best_practice_project (0.0.11)
+      auto_autoloader (>= 0.0.5)
     builder (3.2.3)
     capybara (2.6.2)
       addressable
@@ -166,7 +166,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  best_practice_project (= 0.0.9)
+  best_practice_project (= 0.0.11)
   capybara (= 2.6.2)
   capybara-webkit (= 1.15.1)
   factory_girl_rails (= 4.8.0)
