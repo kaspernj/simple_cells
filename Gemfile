@@ -7,7 +7,7 @@ gemspec
 
 group :development, :test do
   gem "best_practice_project", "0.0.11", require: false
-  gem "capybara", "3.34.0"
+  gem "capybara", "3.35.3"
   gem "capybara-webkit", "1.15.1"
   gem "factory_girl_rails", "4.9.0"
   gem "forgery", "0.8.1"
