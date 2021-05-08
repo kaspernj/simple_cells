@@ -13,14 +13,14 @@ class SimpleCells::BaseCell
     if @_simple_cell_view_to_render
       if @_simple_cell_view_to_render[:view]
         cell_to_render = {
-          file: File.join("/", "simple_cells", cell_name.to_s, @_simple_cell_view_to_render[:view]).to_s
+          template: File.join("/", "simple_cells", cell_name.to_s, @_simple_cell_view_to_render[:view]).to_s
         }
       else
         cell_to_render = @_simple_cell_view_to_render
       end
     else
       cell_to_render = {
-        file: File.join("/", "simple_cells", cell_name.to_s, action_name.to_s).to_s
+        template: File.join("/", "simple_cells", cell_name.to_s, action_name.to_s).to_s
       }
     end
 
