@@ -167,7 +167,7 @@ GEM
       rspec-mocks (~> 3.10)
       rspec-support (~> 3.10)
     rspec-support (3.10.2)
-    rubocop (1.16.0)
+    rubocop (1.18.1)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
@@ -209,7 +209,7 @@ DEPENDENCIES
   factory_bot
   forgery (= 0.8.1)
   rspec-rails (= 5.0.1)
-  rubocop (= 1.16.0)
+  rubocop (= 1.18.1)
   simple_cells!
   sqlite3
 
