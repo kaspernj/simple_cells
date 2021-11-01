@@ -6,7 +6,7 @@ source "https://rubygems.org"
 gemspec
 
 group :development, :test do
-  gem "best_practice_project", "0.0.11", require: false
+  gem "best_practice_project", "0.0.12", require: false
   gem "capybara", "3.36.0"
   gem "capybara-webkit", "1.15.1"
   gem "factory_bot"

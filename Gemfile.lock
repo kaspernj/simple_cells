@@ -72,7 +72,7 @@ GEM
     ast (2.4.2)
     auto_autoloader (0.0.5)
       string-cases
-    best_practice_project (0.0.11)
+    best_practice_project (0.0.12)
       auto_autoloader (>= 0.0.5)
     builder (3.2.4)
     capybara (3.36.0)
@@ -205,7 +205,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  best_practice_project (= 0.0.11)
+  best_practice_project (= 0.0.12)
   capybara (= 3.36.0)
   capybara-webkit (= 1.15.1)
   factory_bot
