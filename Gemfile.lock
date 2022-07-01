@@ -190,7 +190,8 @@ GEM
       rspec-mocks (~> 3.10)
       rspec-support (~> 3.10)
     rspec-support (3.11.0)
-    rubocop (1.30.0)
+    rubocop (1.31.1)
+      json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.1.0.0)
       rainbow (>= 2.2.2, < 4.0)
@@ -209,7 +210,7 @@ GEM
     timeout (0.3.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
-    unicode-display_width (2.1.0)
+    unicode-display_width (2.2.0)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -227,7 +228,7 @@ DEPENDENCIES
   factory_bot
   forgery (= 0.8.1)
   rspec-rails (= 5.1.2)
-  rubocop (= 1.30.0)
+  rubocop (= 1.31.1)
   simple_cells!
   sqlite3
 
