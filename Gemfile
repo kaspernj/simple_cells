@@ -12,7 +12,7 @@ group :development, :test do
   gem "factory_bot"
   gem "forgery", "0.8.1"
   gem "rspec-rails", "5.1.2"
-  gem "rubocop", "1.36.0", require: false
+  gem "rubocop", "1.38.0", require: false
   gem "sqlite3"
 end
 
