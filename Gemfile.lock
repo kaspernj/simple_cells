@@ -196,7 +196,7 @@ GEM
     rubocop-ast (1.21.0)
       parser (>= 3.1.1.0)
     ruby-progressbar (1.11.0)
-    sqlite3 (1.5.1)
+    sqlite3 (1.5.3)
       mini_portile2 (~> 2.8.0)
     string-cases (0.0.4)
     thor (1.2.1)
