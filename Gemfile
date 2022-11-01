@@ -11,7 +11,7 @@ group :development, :test do
   gem "capybara-webkit", "1.15.1"
   gem "factory_bot"
   gem "forgery", "0.8.1"
-  gem "rspec-rails", "5.1.2"
+  gem "rspec-rails", "6.0.1"
   gem "rubocop", "1.38.0", require: false
   gem "sqlite3"
 end
