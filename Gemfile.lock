@@ -90,7 +90,7 @@ GEM
     base64 (0.2.0)
     best_practice_project (0.0.12)
       auto_autoloader (>= 0.0.5)
-    bigdecimal (3.1.4)
+    bigdecimal (3.1.5)
     builder (3.2.4)
     capybara (3.39.2)
       addressable
@@ -112,7 +112,7 @@ GEM
     drb (2.2.0)
       ruby2_keywords
     erubi (1.12.0)
-    factory_bot (6.4.2)
+    factory_bot (6.4.5)
       activesupport (>= 5.0.0)
     forgery (0.8.1)
     globalid (1.2.1)
