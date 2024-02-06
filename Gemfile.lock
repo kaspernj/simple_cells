@@ -90,7 +90,7 @@ GEM
     base64 (0.2.0)
     best_practice_project (0.0.12)
       auto_autoloader (>= 0.0.5)
-    bigdecimal (3.1.5)
+    bigdecimal (3.1.6)
     builder (3.2.4)
     capybara (3.39.2)
       addressable
@@ -104,7 +104,7 @@ GEM
     capybara-webkit (1.15.1)
       capybara (>= 2.3, < 4.0)
       json
-    concurrent-ruby (1.2.2)
+    concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
     crass (1.0.6)
     date (3.3.4)
@@ -112,7 +112,7 @@ GEM
     drb (2.2.0)
       ruby2_keywords
     erubi (1.12.0)
-    factory_bot (6.4.5)
+    factory_bot (6.4.6)
       activesupport (>= 5.0.0)
     forgery (0.8.1)
     globalid (1.2.1)
@@ -137,7 +137,7 @@ GEM
     matrix (0.4.2)
     mini_mime (1.1.5)
     mini_portile2 (2.8.5)
-    minitest (5.20.0)
+    minitest (5.22.0)
     mutex_m (0.2.0)
     net-imap (0.4.7)
       date
