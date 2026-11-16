@@ -1,0 +1,18 @@
+# TensorBuzz build config for simple_cells.
+#
+# This repository has one meaningful build lane: the RSpec suite exercises both
+# the gem and its dummy Rails application. A builds: map would only duplicate
+# that same suite, so a root-level filter is the honest boundary; there are no
+# unrelated lanes to skip independently. The positive catch-all keeps source,
+# tests, manifests, lockfiles, shared tooling, and CI configuration fail-open.
+# Ordered rules make documentation-only changes terminal skips. tensorbuzz.yml
+# itself is a repository config file and therefore still runs the lane.
+paths:
+  - "**"
+  - "!**/*.md"
+  - "!**/README*"
+  - "!docs/**"
+  - "AGENTS.md"
+
+script:
+  - bundle exec rspec
